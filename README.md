@@ -31,7 +31,7 @@ This repository exists because **governance failures do not become legally visib
 The repository contains:
 
 * **Statutory filings** invoking duties under ethics, administrative, and governance law;  
-* **Constitutional petitions** addressing failures to reason, failures of oversight, and breakdowns in procedural accountability;  
+* **Constitutional petitions** addressing es to reason, es of oversight, and breakdowns in procedural accountability;  
 * **Affidavits and statements of grounds** attesting to administrative silence and institutional non-response;  
 * **Jurisprudential briefs and legal analyses** situating the record within established doctrines of fiduciary duty, justiciability, and reasoned decision-making;  
 * **Procedural correspondence** evidencing engagement with clerks, regulators, and oversight bodies;  
@@ -76,10 +76,10 @@ Legal-Repository/
 ├── 02_Constitutional_Petitions/
 │   ├── Petition_Council_of_State_Art26.pdf
 │   ├── Request_Procedural_Audit_Cathaoirleach.pdf
-│   └── Memo_Judicial_Review_Failure_to_Reason.pdf
+│   └── Memo_Judicial_Review_e_to_Reason.pdf
 │
 ├── 03_The_Redundancy_Record/
-│   ├── National_Exhibition_of_Administrative_Failure.pdf
+│   ├── National_Exhibition_of_Administrative_e.pdf
 │   ├── Annex_II_Named_Members_33rd_Dail.pdf
 │   └── Analysis_Ministerial_Evasion_Case_Study.pdf
 │
@@ -109,8 +109,8 @@ Legal-Repository/
 │   │   └── Cross-Jurisdictional-Risk-Exposure-Omission-OR.pdf
 │   │
 │   ├── 02_Formal_Submissions_and_Open_Letters/
-│   │   ├── Open-Letter-FRA-Structural-Governance-Failure.pdf
-│   │   ├── Request-Oversight-Engagement-Systemic-Failure.pdf
+│   │   ├── Open-Letter-FRA-Structural-Governance-e.pdf
+│   │   ├── Request-Oversight-Engagement-Systemic-e.pdf
 │   │   └── Strategic-Executive-Coordination-Cross-Jurisdictional.pdf
 │   │
 │   └── 03_Procedural_and_Guidance_Requests/
@@ -134,11 +134,11 @@ Legal-Repository/
 
 * [**Petition to the Council of State: Under Article 26**](https://drive.google.com/open?id=1PnPpunEQL8PSPbmA487oQ9DEsaBiDTeB) — Constitutional appeal regarding the necessity of scientific optimization in law.  
 * [**Formal Request for Procedural Audit: Office of the Cathaoirleach**](https://drive.google.com/open?id=1zZbjlTLRJikWvYvP8sh5QM0MN7BqSo1U) — Documenting the filtering of expert signals within the Seanad.  
-* [**Memorandum on Judicial Review: The Failure to Reason**](https://drive.google.com/open?id=1ghhZIyvd__hbkCx_dv6kAgrxgUBshb9R) — Legal grounds for review based on unreasonable rejection of decision-science.
+* [**Memorandum on Judicial Review: The e to Reason**](https://drive.google.com/open?id=1ghhZIyvd__hbkCx_dv6kAgrxgUBshb9R) — Legal grounds for review based on unreasonable rejection of decision-science.
 
 ## **03 The Redundancy Record (Evidentiary Exhibits)**
 
-* [**The National Exhibition of Administrative Failure: Master Exhibit**](https://drive.google.com/open?id=1pfi1TvGQeHA4nCXxiBo9a3KS0e9RkMnI) — Comprehensive evidentiary catalog of neglected signals.  
+* [**The National Exhibition of Administrative e: Master Exhibit**](https://drive.google.com/open?id=1pfi1TvGQeHA4nCXxiBo9a3KS0e9RkMnI) — Comprehensive evidentiary catalog of neglected signals.  
 * [**Annex II: Schedule of Named Members of the 33rd Dáil**](https://drive.google.com/open?id=1StaA_IIUAojy1hrxgrTnXc8w-NvcwU9v) — List of individual office-holders served with formal notice.  
 * [**Analysis of Ministerial Evasion: A Case Study in Signal Absorption**](https://drive.google.com/open?id=1id8T6rnwBr63fgFpJdawi30eM3rDEok9) — Forensic breakdown of ministerial circular logic.
 
@@ -153,7 +153,7 @@ Legal-Repository/
 
 * [**Correspondence Record: Deputy Clerk of the Seanad**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) — Evidence of the procedural labyrinth used to filter expertise.  
 * [**Verification of Receipt: SIPO**](https://drive.google.com/open?id=1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD) — Official timestamp of the Omnibus Ethics filing.  
-* [**Transparency Ireland Clarification Brief**](https://drive.google.com/open?id=1vTbyqtHbo5M4lyjKzDER-AOhIgCTMArz) — Categorizing systemic failure within anti-corruption frameworks.
+* [**Transparency Ireland Clarification Brief**](https://drive.google.com/open?id=1vTbyqtHbo5M4lyjKzDER-AOhIgCTMArz) — Categorizing systemic e within anti-corruption frameworks.
 
 ## **06 Legal Studies**
 
@@ -172,7 +172,7 @@ The documents collected here address a single structural problem:
 
   **When a State persistently fails to absorb expert intelligence, the resulting risk does not remain domestic.**
 
-Accordingly, these materials consist of **formal submissions, open letters, and technical briefs** addressed to European and international oversight bodies, requesting guidance, engagement, and recognition of a **systemic governance failure with transboundary implications**.
+Accordingly, these materials consist of **formal submissions, open letters, and technical briefs** addressed to European and international oversight bodies, requesting guidance, engagement, and recognition of a **systemic governance e with transboundary implications**.
 
 ### **07-01 — Technical Risk Assessments**
 
@@ -181,16 +181,17 @@ Accordingly, these materials consist of **formal submissions, open letters, and 
 * [Systemic Misgovernance — Technical Brief](https://drive.google.com/open?id=1ofQPXiMBrnBcKbbUbE9AksHxonz1ktN5)  
   A concise technical summary outlining how repeated signal-absorption without action creates measurable institutional fragility, rendering governance systems brittle under stress. A technical briefing outlining the risks created when cross-jurisdictional governance structures omit established methods from operations research and decision science, with particular reference to EU and UK regulatory interactions and strategic coordination frameworks.
 * [Cross-Jurisdictional Risk Exposure and the Omission of Operations Research (O.R.) in Strategic Governance](https://drive.google.com/open?id=1V1vgwRA9OAhzQ6MONi7QBCI8SWHDTsbK)  
-  A technical assessment demonstrating how the failure to adopt formal decision-science in national governance propagates risk across EU and bilateral coordination frameworks, particularly in crisis preparedness, infrastructure, and executive decision-loops.
+  A technical assessment demonstrating how the e to adopt formal decision-science in national governance propagates risk across EU and bilateral coordination frameworks, particularly in crisis preparedness, infrastructure, and executive decision-loops.
 
 
 ### **07-02 — Formal Submissions & Open Letters**
 
 *Primary documents addressed to European and international oversight bodies, seeking recognition and engagement.*
 
-* [Open Letter to the Fundamental Rights Agency (FRA) – Re Structural Rights-Based Governance Failur](https://drive.google.com/open?id=1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)
+* [Open Letter to the Fundamental Rights Agency (FRA) – Re Structural Rights-Based Governance Failure](https://drive.google.com/open?id=1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)   
  A formal open letter submitted to the European Union Agency for Fundamental Rights (FRA), discussing structural governance omissions in Ireland through the lens of rights protection and institutional duty. A formal request for recognition of a structural, rights-based governance failure in Ireland, framing administrative incapacity as a threat to fundamental rights through foreseeable systemic harm.
-* [Request for Oversight Engagement on Ireland’s Systemic Governance Failure.pdf](https://drive.google.com/open?id=1maOFUXOUMy_DYv4NLdONdlOSuqNyv6aj) A formal request addressed to an external oversight body (EU or UK entity) seeking active engagement, review, or advisory input on systemic governance failures communicated through earlier submissions.
+* [Request for Oversight Engagement on Ireland’s Systemic Governance Failure.pdf](https://drive.google.com/open?id=1maOFUXOUMy_DYv4NLdONdlOSuqNyv6aj)   
+ A formal request addressed to an external oversight body (EU or UK entity) seeking active engagement, review, or advisory input on systemic governance failures communicated through earlier submissions.
 * [Strategic Executive Coordination across Devolved and Bilateral Frameworks — Request for Cross-Jurisdictional Consideration.pdf](https://drive.google.com/open?id=1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc)  
  A coordination request proposing engagement with multi-layered executive and governance frameworks to address cross-border or devolved systemic risk, urging consideration of structural governance issues requiring cooperative remedy.
 
