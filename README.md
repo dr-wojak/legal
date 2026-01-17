@@ -1,4 +1,4 @@
-# The Meinhardt Initiative: Case Files & Legal Repository
+# Statutory, Constitutional, and Jurisprudential Record
 
 Repository Status: Active / Litigation Prep
 
