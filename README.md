@@ -163,6 +163,8 @@ Legal-Repository/
 * [**Formal Complaint Annex IV \- Compound Failure Modes and Institutional Double Binds v1-3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Structural analysis of the "double binds" trapping Irish governance.
 
+Access the full Formal Complaint with Supporting Materials here: https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS
+
 ### **3\. Correspondence & Procedural History**
 
 *Evidence of the "Silence Veto" and "Procedural Looping" (2008–2025).*
