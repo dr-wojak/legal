@@ -151,9 +151,11 @@ Legal-Repository/
 
 ## **05 Procedural Correspondence**
 
-* [**Correspondence Record: Deputy Clerk of the Seanad**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) — Evidence of the procedural labyrinth used to filter expertise.  
-* [**Verification of Receipt: SIPO**](https://drive.google.com/open?id=1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD) — Official timestamp of the Omnibus Ethics filing.  
-* [**Transparency Ireland Clarification Brief**](https://drive.google.com/open?id=1vTbyqtHbo5M4lyjKzDER-AOhIgCTMArz) — Categorizing systemic e within anti-corruption frameworks.
+* [**Correspondence Record: Deputy Clerk of the Seanad**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) — Evidence of the procedural labyrinth used to filter expertise.
+* [**Memorandum D: Constitutional Ethics, Legal Doctrine, and the Governance Paralysis**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) - To the Honourable Society of King’s Inns & co.
+* [**Verification of Receipt: SIPO**](https://github.com/dr-wojak/legal/) — Official timestamp of the Omnibus Ethics filing.
+* [**Draft Notice of Motion**](https://drive.google.com/open?id=1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD)) Template for notice of motion.
+* [**Transparency Ireland Clarification Brief**](https://drive.google.com/open?id=1vTbyqtHbo5M4lyjKzDER-AOhIgCTMArz) — Categorizing systemic evasion within anti-corruption frameworks.
 
 ## **06 Legal Studies**
 
