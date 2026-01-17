@@ -1,3 +1,5 @@
+![QR Banner](https://github.com/dr-wojak/legal/blob/main/institutional-silence-constitutional-consequences.png)
+
 # Statutory, Constitutional, and Jurisprudential Record
 
 Repository Status: Active / Litigation Prep
