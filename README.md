@@ -146,7 +146,7 @@ Legal-Repository/
 * [**addendum3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Citations of EU Regulation 428/2009 and legislative mandates ignored by the State.
 
-### **2\. Formal Complaints (Oireachtas & Oversight)**
+### **2\. Formal Complaint (Oireachtas & Oversight)**
 
 *Official filings alleging systemic breach of ethical governance obligations.*
 
@@ -163,7 +163,8 @@ Legal-Repository/
 * [**Formal Complaint Annex IV \- Compound Failure Modes and Institutional Double Binds v1-3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Structural analysis of the "double binds" trapping Irish governance.
 
-Access the full Formal Complaint with Supporting Materials here: https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS
+Access the full Formal Complaint with Supporting Materials here:
+**📂 Formal Complaint Archive:** https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS
 
 ### **3\. Correspondence & Procedural History**
 
