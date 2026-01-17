@@ -138,7 +138,7 @@ Legal-Repository/
 * [**draft-notice-of-motion.rtf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Initial motion draft seeking Mandamus to compel government review.  
 * [**notice-of-motion-rev2.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * evised motion detailing specific reliefs and declarations of breach.  
+  * Revised motion detailing specific reliefs and declarations of breach.  
 * [**mandamus-and-government-accountability.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Legal argument outlining the grounds for Mandamus under the *Ministers and Secretaries Act 1924*.  
 * [**facilitating-legal-review.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
