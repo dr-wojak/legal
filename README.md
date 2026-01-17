@@ -76,34 +76,40 @@ The final section, **Extra-Jurisdictional Abeyance**, preserves expert risk comm
 ```
 Legal-Repository/
 │
-├── README.md
+├── README.md                           # The Master Landing Page
 │
-├── 01_Statutory_Filings/
-│   ├── Ethics_Act_Section_8_2_Filing.pdf
-│   ├── Statement_of_Grounds_Fiduciary_Breach.pdf
-│   ├── Affidavit_of_Administrative_Silence.pdf
-│   └── Draft_General_Scheme_OR_Governance_Bill.pdf
+├── 01_Legal_Petitions/
+│   ├── draft-notice-of-motion.rtf
+│   ├── notice-of-motion-rev2.pdf
+│   ├── mandamus-and-government-accountability.pdf
+│   ├── facilitating-legal-review.pdf
+│   └── addendum3.pdf
 │
-├── 02_Constitutional_Petitions/
-│   ├── Petition_Council_of_State_Art26.pdf
-│   ├── Request_Procedural_Audit_Cathaoirleach.pdf
-│   └── Memo_Judicial_Review_e_to_Reason.pdf
+├── 02_Formal_Complaint/
+│   ├── Formal_Complaint_Breach_of_Ethical_Governance_v2-56.pdf
+│   ├── Formal_Complaint_Executive_Conduct_Oversight_v1-3c.pdf
+│   ├── Formal_Complaint_Annex_I_Named_Members_Seanad.pdf
+│   ├── Formal_Complaint_Annex_II_Named_Members_Dail.pdf
+│   ├── Formal_Complaint_Annex_III_Legal_Ethical_Triggers.pdf
+│   └── Formal_Complaint_Annex_IV_Compound_Failure_Modes.pdf
 │
-├── 03_The_Redundancy_Record/
-│   ├── National_Exhibition_of_Administrative_e.pdf
-│   ├── Annex_II_Named_Members_33rd_Dail.pdf
-│   └── Analysis_Ministerial_Evasion_Case_Study.pdf
+├── 03_Correspondence/
+│   ├── meinhardt-docket-001.pdf
+│   ├── Follow-Up_Acknowledged_Correspondence_Tanaiste.pdf
+│   ├── Formal_Request_Oversight_Review_Cathaoirleach.pdf
+│   ├── harris-martin-chambers.pdf
+│   └── summary-of-enquiry-with-the-tanaiste-2025.pdf
 │
-├── 04_Jurisprudential_Briefs/
+├── 04_Theoretical_Papers/
+│   ├── On_the_Absence_of_an_Operational_Framework.pdf
+│   ├── The_States_Duty_to_Govern_Constitutional_Baseline.pdf
+│   ├── systemic-misgovernance-technical-brief.pdf
+│   └── Memorandum-D.pdf
+│
+├── 05_Jurisprudential_Briefs/
 │   ├── Memorial_of_Administrative_Default_2025.pdf
 │   ├── Seachanachas_Jurisprudence_of_Avoidance.pdf
-│   ├── Charter_Strategic_Intelligence_Risk.pdf
 │   └── Ethical_Review_OR_Public_Utility.pdf
-│
-├── 05_Correspondence/
-│   ├── Correspondence_Deputy_Clerk_Seanad.pdf
-│   ├── Memorandum_D.pdf
-│   └── Transparency_Ireland_Clarification_Brief.pdf
 │
 ├── 06_Legal_Studies/
 │   ├── governance-as-conflict-eric-alston-2022-mit.pdf
@@ -112,30 +118,18 @@ Legal-Repository/
 │   └── TractableModReciprocityFairness4-12-05.pdf
 │
 ├── 07_Extra-Jurisdictional_Abeyance/
-│   │
-│   ├── README.md
-│   │
-│   ├── 01_Technical_Risk_Assessments/
-│   │   ├── systemic-misgovernance-technical-brief.pdf
-│   │   └── Cross-Jurisdictional-Risk-Exposure-Omission-OR.pdf
-│   │
-│   ├── 02_Formal_Submissions_and_Open_Letters/
-│   │   ├── Open-Letter-FRA-Structural-Governance-e.pdf
-│   │   ├── Request-Oversight-Engagement-Systemic-e.pdf
-│   │   └── Strategic-Executive-Coordination-Cross-Jurisdictional.pdf
-│   │
-│   └── 03_Procedural_and_Guidance_Requests/
-│       └── Request-Guidance-Petition-Institutional-Risk.pdf
+│   ├── Open-Letter-FRA-Structural-Governance.pdf
+│   ├── Request-Oversight-Engagement-Systemic.pdf
+│   └── Strategic-Executive-Coordination-Cross-Jurisdictional.pdf
 │
 └── LICENSE/
-    ├── CC0_1_0_Universal (Public Domain)
-    └── CC_BY_ND_4_0 (No Derivatives)
-
+    ├── CC0_1_0_Universal
+    └── CC_BY_ND_4_0
 ```
 
 ---
 
-## **Case Inventory**
+## **The Legal Record**
 
 ### **1\. Legal Petitions & High Court Filings**
 
@@ -196,6 +190,40 @@ Legal-Repository/
   * Technical briefing classifying O.R. as a "dual-use" science requiring regulation.  
 * [**Memorandum-D.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Jurisprudential reflection on "Governance Paralysis."
+
+### **5\. Jurisprudential Briefs**
+
+*Philosophical and legal frameworks addressing the "Architecture of Silence" in Irish law.*
+
+* [**Memorial of Administrative Default 2025.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * A formal record of the state's failure to respond to technical warnings, framed as a default in fiduciary care.  
+* [**Seachanachas: Jurisprudence of Avoidance.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * An analysis of how Irish administrative culture utilizes "Seachanachas" (the art of avoidance) to bypass constitutional scrutiny.  
+* [**Ethical Review: OR Public Utility.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * A review of Operations Research as a necessary public utility, arguing that its exclusion from government is ethically indefensible.
+
+### **6\. Legal Studies & External Research**
+
+*Academic foundations supporting the claims of systemic misgovernance and institutional conflict.*
+
+* [**governance-as-conflict-eric-alston-2022-mit.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * Research on how institutional structures can generate inherent conflict and paralysis.  
+* [**ssrn-3700087.pdf (Balkin: Information Fiduciaries)**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * A foundational paper on the duties of those who manage critical information (Information Fiduciaries) toward the public.  
+* [**hacking-digital-dissidence.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * An exploration of modern dissent and the "hacking" of administrative systems to force transparency.
+
+### **7\. Extra-Jurisdictional Abeyance**
+
+*Submissions to international bodies regarding cross-border governance risks.*
+
+* [**Open Letter to FRA: Structural Governance Failure.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * A petition to the EU Fundamental Rights Agency regarding the erosion of the rule of law through executive silence.  
+* [**Strategic Executive Coordination: Cross-Jurisdictional.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * A proposal for synchronizing O.R. methodologies across EU member states to prevent localized governance collapses.  
+* [**Request for Guidance: Petition on Institutional Risk.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+  * Formal inquiry into international standards for addressing "unacknowledged" systemic risks within domestic governments.
+
 
 ---
 
