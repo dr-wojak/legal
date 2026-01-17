@@ -89,9 +89,9 @@ Legal-Repository/
 │   ├── Charter_Strategic_Intelligence_Risk.pdf
 │   └── Ethical_Review_OR_Public_Utility.pdf
 │
-├── 05_Procedural_Correspondence/
+├── 05_Correspondence/
 │   ├── Correspondence_Deputy_Clerk_Seanad.pdf
-│   ├── SIPO_Verification_of_Receipt.pdf
+│   ├── Memorandum_D.pdf
 │   └── Transparency_Ireland_Clarification_Brief.pdf
 │
 ├── 06_Legal_Studies/
@@ -139,7 +139,7 @@ Legal-Repository/
 ## **03 The Redundancy Record (Evidentiary Exhibits)**
 
 * [**The National Exhibition of Administrative e: Master Exhibit**](https://drive.google.com/open?id=1pfi1TvGQeHA4nCXxiBo9a3KS0e9RkMnI) — Comprehensive evidentiary catalog of neglected signals.  
-* [**Annex II: Schedule of Named Members of the 33rd Dáil**](https://drive.google.com/file/d/1llrJ2dAr1NPUJA8mkUCP1OFgdzn7SF96/view?usp=drive_link) — List of individual non office-holders served with formal notice.
+* [**Annex II: Schedule of Named Members of the 34th Dáil**](https://drive.google.com/file/d/1llrJ2dAr1NPUJA8mkUCP1OFgdzn7SF96/view?usp=drive_link) — List of individual non office-holders served with formal notice.
 * [**Analysis of Ministerial Evasion: A Case Study in Signal Absorption**](https://drive.google.com/open?id=1id8T6rnwBr63fgFpJdawi30eM3rDEok9) — Forensic breakdown of ministerial circular logic.
 
 ## **04 Jurisprudential & Thematic Briefs**
@@ -153,7 +153,6 @@ Legal-Repository/
 
 * [**Correspondence Record: Deputy Clerk of the Seanad**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) — Evidence of the procedural labyrinth used to filter expertise.
 * [**Memorandum D: Constitutional Ethics, Legal Doctrine, and the Governance Paralysis**](https://drive.google.com/open?id=1VbLw8ySjuosIMywGLuvEpVG9seeKqXDV) - To the Honourable Society of King’s Inns & co.
-* [**Verification of Receipt: SIPO**](https://github.com/dr-wojak/legal/) — Official timestamp of the Omnibus Ethics filing.
 * [**Draft Notice of Motion**](https://drive.google.com/open?id=1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD)) Template for notice of motion.
 * [**Transparency Ireland Clarification Brief**](https://drive.google.com/open?id=1vTbyqtHbo5M4lyjKzDER-AOhIgCTMArz) — Categorizing systemic evasion within anti-corruption frameworks.
 
