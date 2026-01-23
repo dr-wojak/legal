@@ -188,7 +188,7 @@ Access the full Formal Complaint with Supporting Materials here:
 *The core philosophy of the Meinhardt Initiative and Operations Research methodology.*
 
 * [**On the Absence of an Operational Framework in Government.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * Treatise on the lack of "operational infrastructure" in modern governance.  
+  * Treatise on the lack of operational infrastructure in modern governance.  
 * [**The State’s Duty to Govern \- A Constitutional Baseline.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * Memorandum on the constitutional obligation to utilise available science.  
 * [**systemic-misgovernance-technical-brief.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
