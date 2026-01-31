@@ -88,12 +88,14 @@ Legal-Repository/
 │   └── addendum3.pdf
 │
 ├── 02_Formal_Complaint/
+│   ├── Formal_Complaint_Contents_v2-56.pdf
 │   ├── Formal_Complaint_Breach_of_Ethical_Governance_v2-56.pdf
 │   ├── Formal_Complaint_Executive_Conduct_Oversight_v1-3c.pdf
 │   ├── Formal_Complaint_Annex_I_Named_Members_Seanad.pdf
 │   ├── Formal_Complaint_Annex_II_Named_Members_Dail.pdf
 │   ├── Formal_Complaint_Annex_III_Legal_Ethical_Triggers.pdf
-│   └── Formal_Complaint_Annex_IV_Compound_Failure_Modes.pdf
+│   ├── Formal_Complaint_Annex_IV_Compound_Failure_Modes.pdf
+│   └── Formal Complaint Annex_V_Summary_of_the_Conspectus_Documents.pdf
 │
 ├── 03_Correspondence/
 │   ├── meinhardt-docket-001.pdf
@@ -152,18 +154,22 @@ Legal-Repository/
 
 *Official filings alleging systemic breach of ethical governance obligations.*
 
-* [**Formal Complaint Regarding Breach of Ethical Governance Obligations (compiled) v2-56.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint: Contents v2-56**](https://drive.google.com/file/d/1659ypHAN1M-kFnYrNgrGlPuwjh5a6GC1)  
+  * Table of Contents of the Formal Complaint.
+* [**Formal Complaint Regarding Breach of Ethical Governance Obligations (compiled) v2-56**](https://drive.google.com/file/d/1hpbq3nOqJ6V2JJbKh6be9Pa8SYQV7Y3D)  
   * The master complaint dossier submitted for parliamentary review.  
-* [**Formal Complaint Regarding Executive Conduct and Legislative Oversight v1-3c.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint Regarding Executive Conduct and Legislative Oversight v1-3c**](https://drive.google.com/file/d/1CyVWKrp-0JWVPegXQfNPJQgeb0qB30kL)  
   * Rebuttal regarding the scope of the complaint and the definition of "executive conduct."  
-* [**Formal Complaint Annex I \- Named Members of Seanad Éireann v1-3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint Annex I \- Named Members of Seanad Éireann v1-4**](https://drive.google.com/file/d/15o3z6exvSj3tLE_NJwH2NHpC-4IT0EzM)  
   * List of Senators contacted regarding pandemic preparedness who failed to respond.  
-* [**Formal Complaint Annex II \- Named Members of Dáil Éireann v1-1.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint Annex II \- Named Members of Dáil Éireann v1-4**](https://drive.google.com/file/d/1llrJ2dAr1NPUJA8mkUCP1OFgdzn7SF96)  
   * Corresponding list of TDs (Deputies) cited for failure to act on intelligence.  
-* [**Formal Complaint Annex III \- Legal and Ethical Triggers for Denunciation.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint Annex III \- Legal and Ethical Triggers for Denunciation**](https://drive.google.com/file/d/1SWuDcLdgxx6Vf8HXCzj9ZkoUTXM51JEK)  
   * Reference table mapping specific inactions to breaches of Constitutional and EU law.  
-* [**Formal Complaint Annex IV \- Compound Failure Modes and Institutional Double Binds v1-3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Complaint Annex IV \- Compound Failure Modes and Institutional Double Binds v1-3**](https://drive.google.com/file/d/1OS8IJbt2ZPH9KknZk3wHRzw_b6ekgmpQ)  
   * Structural analysis of the "double binds" trapping Irish governance.
+* [**Formal Complaint Annex V \- Summary of the Conspectus Documents**](https://drive.google.com/file/d/1ZvnnIYNdXnCqDFVWx_a0DFRi3a8utxK1)  
+  * Conspectus on Operations Research, Ireland (2012, Working Draft – unpublished).
 
 Access the full Formal Complaint with Supporting Materials here:
 **📂 Formal Complaint Archive:** https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS
