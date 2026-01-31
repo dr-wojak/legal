@@ -102,6 +102,7 @@ Legal-Repository/
 │   ├── Follow-Up_Acknowledged_Correspondence_Tanaiste.pdf
 │   ├── Formal_Request_Oversight_Review_Cathaoirleach.pdf
 │   ├── harris-martin-chambers.pdf
+│   ├── summary-of-enquiry-with-the-tanaiste-2024.pdf
 │   └── summary-of-enquiry-with-the-tanaiste-2025.pdf
 │
 ├── 04_Theoretical_Papers/
@@ -139,16 +140,16 @@ Legal-Repository/
 
 *Drafts and perfected documents for judicial review and mandamus proceedings.*
 
-* [**draft-notice-of-motion.rtf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**draft-notice-of-motion**](https://drive.google.com/file/d/1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD)  
   * Initial motion draft seeking Mandamus to compel government review.  
-* [**notice-of-motion-rev2.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**notice-of-motion-rev2**](https://drive.google.com/file/d/1VpOZMrHRPLj951hZxMUnaJAWyFHSa77H)  
   * Revised motion detailing specific reliefs and declarations of breach.  
-* [**mandamus-and-government-accountability.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**mandamus-and-government-accountability**](https://drive.google.com/file/d/1VhiPuG_t89iqTFIBIacxMeO-5uPh_D2s)  
   * Legal argument outlining the grounds for Mandamus under the *Ministers and Secretaries Act 1924*.  
-* [**facilitating-legal-review.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**facilitating-legal-review**](https://drive.google.com/file/d/1CtX772NrmmXUTlZLR1edI2uBA3SSWy8E)  
   * Argument for judicial intervention in cases of executive negligence regarding national security.  
-* [**addendum3.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * Citations of EU Regulation 428/2009 and legislative mandates ignored by the State.
+* [**addendum3**](https://drive.google.com/file/d/1V3SmYWbDDOxdbaIw64JhEQUCNIh7pkZK)  
+  * Addendum to the Summary of Enquiry with the Tánaiste (2024). Citations of EU Regulation 428/2009 and legislative mandates ignored by the State.
 
 ### **2\. Formal Complaint (Oireachtas & Oversight)**
 
@@ -178,29 +179,35 @@ Access the full Formal Complaint with Supporting Materials here:
 
 *Evidence of the "Silence Veto" and "Procedural Looping" (2008–2025).*
 
-* [**meinhardt-docket-001.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**meinhardt-docket-001**](https://drive.google.com/file/d/1KoxPTNU1zNIgwRvoq_M8FUBJ9UvmCVMd)  
   * "Docket" letter to the Clerk of the Dáil clarifying evidentiary submission.  
-* [**Follow-Up on Acknowledged Correspondence (Tanaiste).pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Follow-Up on Acknowledged Correspondence (Tanaiste)**](https://drive.google.com/file/d/1oss64WoPeyzoFXw3-AzNCLvH2mAB38G_)  
   * Log of non-response from the Department of Foreign Affairs.  
-* [**Formal Request for Oversight Review \- Cathaoirleach.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Formal Request for Oversight Review \- Cathaoirleach**](https://drive.google.com/file/d/1XPcL3h-WaGsBheWvyQ_IEfIB44U7zD8a)  
   * Request to Senator Mark Daly to initiate an Oversight Review.  
-* [**harris-martin-chambers.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * Correspondence to Taoiseach Harris and Micheál Martin reviewing 17 years of engagement.  
-* [**summary-of-enquiry-with-the-tanaiste-2025.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * 2025 update focusing on "Narrative Unity" and the recovery of ethical frameworks.
+* [**harris-martin-chambers**](https://drive.google.com/file/d/1R7c-MnoTHxEqiQgwPiyMtFDS8f8vnH4a)  
+  * Correspondence to Taoiseach Harris and Micheál Martin reviewing 19 years of engagement.  
+* [**summary-of-enquiry-with-the-tanaiste-2024**](https://drive.google.com/file/d/1QhF8uKAjalyTayN4mzOyIn0-JXyH5d-M)  
+  * A detailed record of enquiry cycle with the Office of the Tánaiste regarding national preparedness and the submission of strategic intelligence tools.
+* [**summary-of-enquiry-with-the-tanaiste-2025**](https://drive.google.com/file/d/1QJAOnMKFyHQKkVFM4NegRoSp3XJUC0jo)  
+  * 2025 update focusing on narrative unity and the recovery of ethical frameworks.
+
 
 ### **4\. Theoretical Papers & Memoranda**
 
 *The core philosophy of the Meinhardt Initiative and Operations Research methodology.*
 
-* [**On the Absence of an Operational Framework in Government.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**On the Absence of an Operational Framework in Government**](https://drive.google.com/file/d/1fDQRdlEaDchwhnxaqsbu5ZbU3NNQLPmG)  
   * Treatise on the lack of operational infrastructure in modern governance.  
-* [**The State’s Duty to Govern \- A Constitutional Baseline.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**The State’s Duty to Govern \- A Constitutional Baseline**](https://drive.google.com/file/d/1boWYioN5jQ1fIBEWHL5YH8FMv2lzIMbX)  
   * Memorandum on the constitutional obligation to utilise available science.  
-* [**systemic-misgovernance-technical-brief.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**systemic-misgovernance-technical-brief**](https://drive.google.com/file/d/1nT_vw4ACxvH5qLLEnn5D2ivDQf_57XF2)  
   * Technical briefing classifying O.R. as a "dual-use" science requiring regulation.  
-* [**Memorandum-D.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
-  * Jurisprudential reflection on "Governance Paralysis."
+* [**Memorandum D**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
+  * Jurisprudential reflection on Governance Paralysis.
+* [**Memorandum E**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
+  * Constitutional Ethics, Legal Doctrine, and the Governance Paralysis: Constitutional Duty in the Face of Systematic Preclusion (per ‘Silence Veto’)
+
 
 ### **5\. Jurisprudential Briefs**
 
@@ -217,22 +224,22 @@ Access the full Formal Complaint with Supporting Materials here:
 
 *Academic foundations supporting the claims of systemic misgovernance and institutional conflict.*
 
-* [**governance-as-conflict-eric-alston-2022-mit.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**governance-as-conflict-eric-alston-2022-mit.pdf**](https://drive.google.com/file/d/1wmDKugdRFgZ3fWN_OqdpxubaQnFx3opO)  
   * Research on how institutional structures can generate inherent conflict and paralysis.  
-* [**ssrn-3700087.pdf (Balkin: Information Fiduciaries)**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**ssrn-3700087.pdf (Balkin: Information Fiduciaries)**](https://drive.google.com/file/d/10jJh8NRPsLhnnX5vgxjgyBGQYpyHvBl0)  
   * A foundational paper on the duties of those who manage critical information (Information Fiduciaries) toward the public.  
-* [**hacking-digital-dissidence.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**hacking-digital-dissidence.pdf**](https://drive.google.com/file/d/1UJQGzFzaYIZpuv3onUTI63DgjdZicXH7)  
   * An exploration of modern dissent and the "hacking" of administrative systems to force transparency.
 
 ### **7\. Extra-Jurisdictional Abeyance**
 
 *Submissions to international bodies regarding cross-border governance risks.*
 
-* [**Open Letter to FRA: Structural Governance Failure.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Open Letter to FRA: Structural Governance Failure.pdf**](https://drive.google.com/file/d/1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)  
   * A petition to the EU Fundamental Rights Agency regarding the erosion of the rule of law through executive silence.  
-* [**Strategic Executive Coordination: Cross-Jurisdictional.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Strategic Executive Coordination: Cross-Jurisdictional.pdf**](https://drive.google.com/file/d/1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc)  
   * A proposal for synchronizing O.R. methodologies across EU member states to prevent localized governance collapses.  
-* [**Request for Guidance: Petition on Institutional Risk.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Request for Guidance: Petition on Institutional Risk.pdf**](https://drive.google.com/file/d/1iuCwfJL9RxHh4VpJ5ACiiXCOdPMsIUPT)  
   * Formal inquiry into international standards for addressing "unacknowledged" systemic risks within domestic governments.
 
 
