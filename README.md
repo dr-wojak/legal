@@ -216,33 +216,33 @@ Access the full Formal Complaint with Supporting Materials here:
 
 *Philosophical and legal frameworks addressing the "Architecture of Silence" in Irish law.*
 
-* [**Memorial of Administrative Default 2025.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Memorial of Administrative Default 2025**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * A formal record of the state's failure to respond to technical warnings, framed as a default in fiduciary care.  
-* [**Seachanachas: Jurisprudence of Avoidance.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Seachanachas: Jurisprudence of Avoidance**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * An analysis of how Irish administrative culture utilizes "Seachanachas" (the art of avoidance) to bypass constitutional scrutiny.  
-* [**Ethical Review: OR Public Utility.pdf**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
+* [**Ethical Review: OR Public Utility**](https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn)  
   * A review of Operations Research as a necessary public utility, arguing that its exclusion from government is ethically indefensible.
 
 ### **6\. Legal Studies & External Research**
 
 *Academic foundations supporting the claims of systemic misgovernance and institutional conflict.*
 
-* [**governance-as-conflict-eric-alston-2022-mit.pdf**](https://drive.google.com/file/d/1wmDKugdRFgZ3fWN_OqdpxubaQnFx3opO)  
+* [**governance-as-conflict-eric-alston-2022-mit**](https://drive.google.com/file/d/1wmDKugdRFgZ3fWN_OqdpxubaQnFx3opO)  
   * Research on how institutional structures can generate inherent conflict and paralysis.  
-* [**ssrn-3700087.pdf (Balkin: Information Fiduciaries)**](https://drive.google.com/file/d/10jJh8NRPsLhnnX5vgxjgyBGQYpyHvBl0)  
+* [**ssrn-3700087 (Balkin: Information Fiduciaries)**](https://drive.google.com/file/d/10jJh8NRPsLhnnX5vgxjgyBGQYpyHvBl0)  
   * A foundational paper on the duties of those who manage critical information (Information Fiduciaries) toward the public.  
-* [**hacking-digital-dissidence.pdf**](https://drive.google.com/file/d/1UJQGzFzaYIZpuv3onUTI63DgjdZicXH7)  
+* [**hacking-digital-dissidence**](https://drive.google.com/file/d/1UJQGzFzaYIZpuv3onUTI63DgjdZicXH7)  
   * An exploration of modern dissent and the "hacking" of administrative systems to force transparency.
 
 ### **7\. Extra-Jurisdictional Abeyance**
 
 *Submissions to international bodies regarding cross-border governance risks.*
 
-* [**Open Letter to FRA: Structural Governance Failure.pdf**](https://drive.google.com/file/d/1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)  
+* [**Open Letter to FRA: Structural Governance Failure**](https://drive.google.com/file/d/1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)  
   * A petition to the EU Fundamental Rights Agency regarding the erosion of the rule of law through executive silence.  
-* [**Strategic Executive Coordination: Cross-Jurisdictional.pdf**](https://drive.google.com/file/d/1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc)  
+* [**Strategic Executive Coordination: Cross-Jurisdictional**](https://drive.google.com/file/d/1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc)  
   * A proposal for synchronizing O.R. methodologies across EU member states to prevent localized governance collapses.  
-* [**Request for Guidance: Petition on Institutional Risk.pdf**](https://drive.google.com/file/d/1iuCwfJL9RxHh4VpJ5ACiiXCOdPMsIUPT)  
+* [**Request for Guidance: Petition on Institutional Risk**](https://drive.google.com/file/d/1iuCwfJL9RxHh4VpJ5ACiiXCOdPMsIUPT)  
   * Formal inquiry into international standards for addressing "unacknowledged" systemic risks within domestic governments.
 
 
