@@ -105,11 +105,13 @@ Legal-Repository/
 │   ├── summary-of-enquiry-with-the-tanaiste-2024.pdf
 │   └── summary-of-enquiry-with-the-tanaiste-2025.pdf
 │
-├── 04_Theoretical_Papers/
+├── 04_Theoretical_Papers_and_Memoranda/
 │   ├── On_the_Absence_of_an_Operational_Framework.pdf
 │   ├── The_States_Duty_to_Govern_Constitutional_Baseline.pdf
 │   ├── systemic-misgovernance-technical-brief.pdf
-│   └── Memorandum-D.pdf
+│   ├── Memorandum-E.pdf
+│   ├── Memorandum-D.pdf
+│   └── On_the_Moral_Mandate_of_Institutional_Actors.pdf
 │
 ├── 05_Jurisprudential_Briefs/
 │   ├── Memorial_of_Administrative_Default_2025.pdf
@@ -203,11 +205,12 @@ Access the full Formal Complaint with Supporting Materials here:
   * Memorandum on the constitutional obligation to utilise available science.  
 * [**systemic-misgovernance-technical-brief**](https://drive.google.com/file/d/1nT_vw4ACxvH5qLLEnn5D2ivDQf_57XF2)  
   * Technical briefing classifying O.R. as a "dual-use" science requiring regulation.  
-* [**Memorandum D**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
-  * Jurisprudential reflection on Governance Paralysis.
 * [**Memorandum E**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
   * Constitutional Ethics, Legal Doctrine, and the Governance Paralysis: Constitutional Duty in the Face of Systematic Preclusion (per ‘Silence Veto’)
-
+* [**Memorandum D**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
+  * Jurisprudential reflection on Governance Paralysis.
+* [**Memoranda A-C: On the Moral Mandate of Institutional Actors**](https://drive.google.com/file/d/1v9J3IPRkw8n_f61VCJmqv0CpdhWUl0JO) 
+  * Dualgas Bunreachtúil (Constitutional Duty) 
 
 ### **5\. Jurisprudential Briefs**
 
