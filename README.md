@@ -175,7 +175,11 @@ Legal-Repository/
   * Conspectus on Operations Research, Ireland (2012, Working Draft – unpublished).
 
 Access the full Formal Complaint with Supporting Materials here:
+
 **📂 Formal Complaint Archive:** https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS
+
+[Supporting Material Landing Page](https://github.com/dr-wojak/supporting-material/)  
+
 
 ### **3\. Correspondence & Procedural History**
 
