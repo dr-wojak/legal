@@ -199,14 +199,10 @@ Access the full Formal Complaint with Supporting Materials here:
   * 2025 update focusing on narrative unity and the recovery of ethical frameworks.
 
 
-### **4\. Theoretical Papers & Memoranda**
+### **4\. Memoranda**
 
 *The core philosophy of the Meinhardt Initiative and Operations Research methodology.*
 
-* [**On the Absence of an Operational Framework in Government**](https://drive.google.com/file/d/1fDQRdlEaDchwhnxaqsbu5ZbU3NNQLPmG)  
-  * Treatise on the lack of operational infrastructure in modern governance.  
-* [**The State’s Duty to Govern \- A Constitutional Baseline**](https://drive.google.com/file/d/1boWYioN5jQ1fIBEWHL5YH8FMv2lzIMbX)  
-  * Memorandum on the constitutional obligation to utilise available science.  
 * [**systemic-misgovernance-technical-brief**](https://drive.google.com/file/d/1nT_vw4ACxvH5qLLEnn5D2ivDQf_57XF2)  
   * Technical briefing classifying O.R. as a "dual-use" science requiring regulation.  
 * [**Memorandum E**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
@@ -214,7 +210,20 @@ Access the full Formal Complaint with Supporting Materials here:
 * [**Memorandum D**](https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z)  
   * Jurisprudential reflection on Governance Paralysis.
 * [**Memoranda A-C: On the Moral Mandate of Institutional Actors**](https://drive.google.com/file/d/1v9J3IPRkw8n_f61VCJmqv0CpdhWUl0JO) 
-  * Dualgas Bunreachtúil (Constitutional Duty) 
+  * Dualgas Bunreachtúil (Constitutional Duty)
+* [**The State’s Duty to Govern \- A Constitutional Baseline**](https://drive.google.com/file/d/1boWYioN5jQ1fIBEWHL5YH8FMv2lzIMbX)  
+  * Memorandum on the constitutional obligation to utilise available science.  
+* [**On the Absence of an Operational Framework in Government**](https://drive.google.com/file/d/1fDQRdlEaDchwhnxaqsbu5ZbU3NNQLPmG)  
+  * Treatise on the lack of operational infrastructure in modern governance.  
+    
+The last three of documents essentially comprise the first three Memoranda A-C:
+
+  * Memorandum A (the operational and humanitarian case) finds its moral grounding in Section III of the June memorandum — specifically Duty C, the Duty to Integrate. The observation that no institutional memory exists across ministerial departments regarding O.R. governance models, that the cycle of "send-summary-again" repeats across offices and administrations, is precisely the operational failure that Memorandum A documents in technical terms. The Meinhardt memoranda give it its moral name: not inefficiency but functional abandonment of public knowledge as a form of public inheritance.
+
+  * Memorandum B (the fiscal and public expenditure case) is anticipated most directly in the May memorandum's identification of wasted public expenditure as one of the four concrete costs borne by the Irish people — alongside disjointed emergency planning, unmanaged strategic risk, and erosion of civic trust. The June memorandum's summary table makes the fiscal chain explicit: Secretaries General breach their duty to transform intent into capacity; Ministers of State reduce governance to performance without substance. These are the moral coordinates that give Memorandum B's accounting of fiscal inefficiency its constitutional dimension.
+
+  * Memorandum C (the Anglo-Irish and bilateral security case) finds its jurisdictional grounding in the May memorandum's Repository #6, the Diplomatic Repository, and in the explicit invocation of EU Regulation 428/2009 as engaging not merely domestic administrative law but European Parliamentary inquiry and international journalistic attention.
+
 
 ### **5\. Jurisprudential Briefs**
 
