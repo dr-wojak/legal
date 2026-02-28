@@ -38,13 +38,13 @@ The purpose of this repository is threefold:
 This repository exists because **governance failures do not become legally visible on their own**. They become visible only when facts are assembled, duties are articulated, and omissions are recorded with procedural precision.
 
 ### Legal Citation Summary
- * Article 2 TEU — foundational rule-of-law obligations binding on all member states and on EU institutions.
- * Article 17(3) TEU — independence and duty of Commissioners to act in the general EU interest.
- * Article 16(9) TEU — Presidency obligations and Council procedural responsibilities.
- * EU Regulation 428/2009 — dual-use goods and technology control, cited throughout the record as a live security-as-pretext concern bearing on data sovereignty.
- * Glencar Exploration plc v Mayo County Council [2002] 1 IR 84 — legitimate expectation doctrine in Irish administrative law.
- * Article 41 of the Charter of Fundamental Rights of the European Union — the right to good administration, including the right to have matters handled within a reasonable time and with proper process: a provision directly engaged by nineteen years of acknowledgement without activation.
- * O'Donnell v. Dún Laoghaire Corporation [1991] ILRM 301 — writ of mandamus as a remedy for failure to exercise statutory duty: applicable here to compel reasoned decision-making rather than continued procedural interment.
+ * **Article 2 TEU** — foundational rule-of-law obligations binding on all member states and on EU institutions.
+ * **Article 17(3) TEU** — independence and duty of Commissioners to act in the general EU interest.
+ * **Article 16(9) TEU** — Presidency obligations and Council procedural responsibilities.
+ * **EU Regulation 428/2009** — dual-use goods and technology control, cited throughout the record as a live security-as-pretext concern bearing on data sovereignty.
+ * **Glencar Exploration plc v Mayo County Council [2002] 1 IR 84** — legitimate expectation doctrine in Irish administrative law.
+ * **Article 41 of the Charter of Fundamental Rights of the European Union** — the right to good administration, including the right to have matters handled within a reasonable time and with proper process: a provision directly engaged by nineteen years of acknowledgement without activation.
+ * **O'Donnell v. Dún Laoghaire Corporation [1991] ILRM 301** — writ of mandamus as a remedy for failure to exercise statutory duty: applicable here to compel reasoned decision-making rather than continued procedural interment.
 
 ---
 
