@@ -263,7 +263,7 @@ The last three of documents essentially comprise the first three Memoranda A-C:
 * [**Open Letter to FRA: Structural Governance Failure**](https://drive.google.com/file/d/1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B)  
   * A petition to the EU Fundamental Rights Agency regarding the erosion of the rule of law through executive silence.  
 * [**Strategic Executive Coordination: Cross-Jurisdictional**](https://drive.google.com/file/d/1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc)  
-  * A proposal for synchronizing O.R. methodologies across EU member states to prevent localized governance collapses.  
+  * A proposal for synchronizing O.R. methodologies across EU member states to prevent localised governance collapses.  
 * [**Request for Guidance: Petition on Institutional Risk**](https://drive.google.com/file/d/1iuCwfJL9RxHh4VpJ5ACiiXCOdPMsIUPT)  
   * Formal inquiry into international standards for addressing "unacknowledged" systemic risks within domestic governments.
 
