@@ -225,7 +225,7 @@ Access the full Formal Complaint with Supporting Materials here:
 * [**On the Absence of an Operational Framework in Government**](https://drive.google.com/file/d/1fDQRdlEaDchwhnxaqsbu5ZbU3NNQLPmG)  
   * Treatise on the lack of operational infrastructure in modern governance.  
     
-The last three of documents essentially comprise the first three Memoranda A-C:
+The last three documents essentially comprise the first three Memoranda A-C:
 
   * Memorandum A (the operational and humanitarian case) finds its moral grounding in Section III of the June memorandum — specifically Duty C, the Duty to Integrate. The observation that no institutional memory exists across ministerial departments regarding O.R. governance models, that the cycle of "send-summary-again" repeats across offices and administrations, is precisely the operational failure that Memorandum A documents in technical terms. The Meinhardt memoranda give it its moral name: not inefficiency but functional abandonment of public knowledge as a form of public inheritance.
 
