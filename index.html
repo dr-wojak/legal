@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Meinhardt Initiative — Legal Repository</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0e0d0b;
+    --parchment: #f5f0e8;
+    --cream: #ede7d9;
+    --gold: #b8860b;
+    --gold-light: #d4a017;
+    --rust: #8b3a2a;
+    --slate: #2c3340;
+    --muted: #6b6358;
+    --border: #c8bfaf;
+    --rule: #d6cfc3;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--parchment);
+    color: var(--ink);
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    overflow-x: hidden;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 28px,
+      rgba(255,255,255,0.018) 28px,
+      rgba(255,255,255,0.018) 29px
+    );
+    pointer-events: none;
+  }
+
+  .header-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 64px 40px 56px;
+    position: relative;
+  }
+
+  .header-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    border: 1px solid var(--gold);
+    display: inline-block;
+    padding: 4px 10px;
+    margin-bottom: 28px;
+    opacity: 0;
+    animation: fadeUp 0.6s ease 0.1s forwards;
+  }
+
+  h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(2.6rem, 6vw, 4.8rem);
+    font-weight: 300;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: var(--parchment);
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeUp 0.7s ease 0.25s forwards;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--gold-light);
+  }
+
+  .header-subtitle {
+    font-size: 1.05rem;
+    color: rgba(245,240,232,0.62);
+    max-width: 560px;
+    margin-bottom: 40px;
+    opacity: 0;
+    animation: fadeUp 0.7s ease 0.4s forwards;
+    font-style: italic;
+  }
+
+  .header-meta {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeUp 0.7s ease 0.55s forwards;
+  }
+
+  .meta-item {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.45);
+  }
+
+  .meta-item span {
+    color: var(--gold-light);
+    display: block;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+
+  .header-rule {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold) 0%, transparent 60%);
+    margin-top: 52px;
+    opacity: 0;
+    animation: fadeIn 1s ease 0.7s forwards;
+  }
+
+  /* ── Nav ── */
+  nav {
+    background: var(--slate);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(184,134,11,0.3);
+  }
+
+  .nav-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav-inner::-webkit-scrollbar { display: none; }
+
+  nav a {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(245,240,232,0.55);
+    text-decoration: none;
+    padding: 14px 18px;
+    display: block;
+    white-space: nowrap;
+    transition: color 0.2s, background 0.2s;
+    border-bottom: 2px solid transparent;
+  }
+
+  nav a:hover {
+    color: var(--gold-light);
+    border-bottom-color: var(--gold);
+  }
+
+  /* ── Layout ── */
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px 80px;
+  }
+
+  /* ── Section ── */
+  .section {
+    padding: 60px 0 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .section.visible { opacity: 1; transform: none; }
+
+  .section-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 28px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: var(--slate);
+    margin: 32px 0 10px;
+  }
+
+  p { margin-bottom: 16px; color: #2a2621; }
+
+  /* ── Overview ── */
+  .overview-box {
+    background: var(--ink);
+    color: var(--parchment);
+    padding: 36px 40px;
+    border-left: 4px solid var(--gold);
+    margin: 40px 0;
+    position: relative;
+  }
+
+  .overview-box::before {
+    content: '§';
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5rem;
+    color: rgba(184,134,11,0.12);
+    position: absolute;
+    top: 12px;
+    right: 28px;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  .overview-box p {
+    color: rgba(245,240,232,0.82);
+    margin-bottom: 14px;
+    font-size: 1rem;
+  }
+
+  .overview-box p:last-child { margin-bottom: 0; }
+
+  .overview-box strong {
+    color: var(--gold-light);
+    font-weight: 500;
+  }
+
+  /* ── Objectives ── */
+  .objective-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 24px 0;
+  }
+
+  .objective-list li {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px 24px;
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--gold);
+  }
+
+  .obj-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--gold);
+    line-height: 1;
+    min-width: 32px;
+    margin-top: -4px;
+  }
+
+  .obj-text strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--slate);
+    margin-bottom: 4px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+  }
+
+  .obj-text p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+
+  /* ── Citation grid ── */
+  .citation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 28px 0;
+  }
+
+  .citation-item {
+    padding: 16px 20px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--rust);
+  }
+
+  .citation-ref {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: var(--rust);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .citation-desc {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  /* ── Document sections ── */
+  .doc-section {
+    margin: 40px 0;
+    padding: 32px 36px;
+    background: #fff;
+    border: 1px solid var(--border);
+    position: relative;
+  }
+
+  .doc-section-num {
+    position: absolute;
+    top: -18px;
+    left: 28px;
+    background: var(--ink);
+    color: var(--gold);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    padding: 4px 12px;
+    text-transform: uppercase;
+  }
+
+  .doc-section h3 {
+    margin-top: 4px;
+    margin-bottom: 6px;
+    font-size: 1.25rem;
+    color: var(--ink);
+  }
+
+  .doc-section .section-desc {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .doc-list { list-style: none; }
+
+  .doc-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .doc-list li:last-child { border-bottom: none; }
+
+  .doc-title-wrap { flex: 1; }
+
+  .doc-name {
+    font-weight: 500;
+    color: var(--ink);
+    display: block;
+    margin-bottom: 3px;
+    font-size: 1rem;
+  }
+
+  .doc-desc {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .doc-link {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    text-decoration: none;
+    border: 1px solid var(--gold);
+    padding: 5px 10px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 4px;
+  }
+
+  .doc-link:hover {
+    background: var(--gold);
+    color: var(--ink);
+  }
+
+  /* ── Directory tree ── */
+  .tree-box {
+    background: var(--ink);
+    border: 1px solid rgba(184,134,11,0.25);
+    padding: 28px 32px;
+    margin: 28px 0;
+    overflow-x: auto;
+  }
+
+  .tree-box pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    line-height: 1.7;
+    color: rgba(245,240,232,0.7);
+    white-space: pre;
+  }
+
+  .tree-box pre .tree-dir { color: var(--gold-light); }
+  .tree-box pre .tree-file { color: rgba(245,240,232,0.55); }
+
+  /* ── Archive CTA ── */
+  .archive-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: var(--cream);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--gold);
+    padding: 22px 28px;
+    margin: 28px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.2s;
+  }
+
+  .archive-cta:hover { background: #e8e0d2; }
+
+  .archive-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .archive-cta-text strong {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .archive-cta-text span {
+    font-size: 0.88rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .archive-arrow {
+    margin-left: auto;
+    font-size: 1.5rem;
+    color: var(--gold);
+    flex-shrink: 0;
+  }
+
+  /* ── Citation & Usage footer ── */
+  .citation-footer {
+    background: var(--ink);
+    color: var(--parchment);
+    margin-top: 72px;
+  }
+
+  .citation-footer-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 48px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+
+  .footer-col-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+
+  .footer-col p {
+    font-size: 0.9rem;
+    color: rgba(245,240,232,0.65);
+    line-height: 1.7;
+  }
+
+  footer {
+    background: #080807;
+    text-align: center;
+    padding: 20px 40px;
+  }
+
+  footer p {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    color: rgba(245,240,232,0.25);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  /* ── Divider ── */
+  .divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--rule), transparent);
+    margin: 48px 0;
+  }
+
+  /* ── Animations ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 640px) {
+    .header-inner, main, .nav-inner { padding-left: 20px; padding-right: 20px; }
+    .citation-grid { grid-template-columns: 1fr; }
+    .citation-footer-inner { grid-template-columns: 1fr; gap: 28px; }
+    .doc-section { padding: 28px 20px; }
+    .overview-box { padding: 28px 24px; }
+    .header-meta { gap: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header>
+  <div class="header-inner">
+    <div class="header-tag">Active · Litigation Prep · 2025</div>
+    <h1>The <em>Meinhardt</em> Initiative</h1>
+    <p class="header-subtitle">Statutory, Constitutional, and Jurisprudential Record on Mandamus, Operational Governance, and the Breach of Ethical Duties</p>
+    <div class="header-meta">
+      <div class="meta-item"><span>Status</span>Active / Litigation Prep</div>
+      <div class="meta-item"><span>Timeline</span>19-Year Record (2006–2025)</div>
+      <div class="meta-item"><span>Remedy</span>Writ of Mandamus</div>
+      <div class="meta-item"><span>Jurisdiction</span>Irish High Court / EU</div>
+    </div>
+    <div class="header-rule"></div>
+  </div>
+</header>
+
+<!-- ══════════ NAV ══════════ -->
+<nav aria-label="Section navigation">
+  <div class="nav-inner">
+    <a href="#overview">Overview</a>
+    <a href="#purpose">Purpose</a>
+    <a href="#citations">Citations</a>
+    <a href="#structure">Structure</a>
+    <a href="#petitions">Petitions</a>
+    <a href="#complaints">Complaints</a>
+    <a href="#correspondence">Correspondence</a>
+    <a href="#memoranda">Memoranda</a>
+    <a href="#briefs">Briefs</a>
+    <a href="#studies">Studies</a>
+    <a href="#international">International</a>
+  </div>
+</nav>
+
+<!-- ══════════ MAIN ══════════ -->
+<main>
+
+  <!-- Overview -->
+  <section class="section" id="overview">
+    <div class="section-label">§ Overview</div>
+    <h2>The Legal &amp; Governance Record</h2>
+
+    <div class="overview-box">
+      <p>This repository hosts the legal and theoretical dossier for <strong>The Meinhardt Initiative</strong>, a civic action compelling the Irish State to integrate <strong>Operations Research (O.R.)</strong> into public crisis management and governance.</p>
+      <p>The documents herein evidence a 19-year timeline of proposals, warnings, and formal submissions to the Department of the Taoiseach, the Department of Defence, and the Oireachtas. They demonstrate a systemic <strong>"Silence Veto"</strong> and <strong>"Procedural Looping"</strong> used by state bodies to evade accountability for governance failure.</p>
+      <p><strong>Primary Objective:</strong> To secure a High Court writ of <em>mandamus</em> forcing a formal review of the O.R. proposals and a declaration of constitutional breach regarding the state's failure to maintain operational infrastructure.</p>
+    </div>
+
+    <a class="archive-cta" href="https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn" target="_blank" rel="noopener">
+      <div class="archive-icon">📂</div>
+      <div class="archive-cta-text">
+        <strong>Master Archive — Full Repository</strong>
+        <span>Access all legal instruments, affidavits, and evidentiary compilations via Google Drive</span>
+      </div>
+      <div class="archive-arrow">→</div>
+    </a>
+
+    <p>This repository constitutes the <strong>formal legal record</strong> arising from a prolonged failure of administrative systems to absorb, assess, and respond to documented expert intelligence on systemic governance risk. It preserves, in structured form, the materials generated after civic disclosure and public explanation failed to produce lawful administrative reasoning.</p>
+    <p>The contents of this repository are not advocacy documents. They are <strong>legal instruments, evidentiary compilations, and jurisprudential analyses</strong>, assembled to enable independent review by courts, oversight bodies, ethics authorities, and legal scholars.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Purpose -->
+  <section class="section" id="purpose">
+    <div class="section-label">§ Purpose &amp; Function</div>
+    <h2>Purpose of the Repository</h2>
+
+    <ul class="objective-list">
+      <li>
+        <div class="obj-num">I</div>
+        <div class="obj-text">
+          <strong>To document escalation</strong>
+          <p>From expert warning and procedural engagement to statutory and constitutional remedy.</p>
+        </div>
+      </li>
+      <li>
+        <div class="obj-num">II</div>
+        <div class="obj-text">
+          <strong>To preserve evidence of administrative silence</strong>
+          <p>As a legally cognisable fact, rather than a political grievance.</p>
+        </div>
+      </li>
+      <li>
+        <div class="obj-num">III</div>
+        <div class="obj-text">
+          <strong>To support lawful scrutiny</strong>
+          <p>By ensuring that the full procedural and evidentiary trail is accessible, verifiable, and ordered.</p>
+        </div>
+      </li>
+    </ul>
+
+    <p>This repository exists because <strong>governance failures do not become legally visible on their own</strong>. They become visible only when facts are assembled, duties are articulated, and omissions are recorded with procedural precision.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Citations -->
+  <section class="section" id="citations">
+    <div class="section-label">§ Legal Authorities</div>
+    <h2>Citation Summary</h2>
+    <p>The following statutory, constitutional, and jurisprudential authorities ground the claims advanced in this record:</p>
+
+    <div class="citation-grid">
+      <div class="citation-item">
+        <div class="citation-ref">Article 2 TEU</div>
+        <div class="citation-desc">Foundational rule-of-law obligations binding on all EU member states and institutions.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">Article 17(3) TEU</div>
+        <div class="citation-desc">Independence and duty of Commissioners to act in the general EU interest.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">Article 16(9) TEU</div>
+        <div class="citation-desc">Presidency obligations and Council procedural responsibilities.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">EU Regulation 428/2009</div>
+        <div class="citation-desc">Dual-use goods and technology control; live security-as-pretext concern bearing on data sovereignty.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">Glencar v Mayo [2002] 1 IR 84</div>
+        <div class="citation-desc">Legitimate expectation doctrine in Irish administrative law.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">Article 41 EU Charter</div>
+        <div class="citation-desc">Right to good administration; matters handled within a reasonable time with proper process — directly engaged by nineteen years of acknowledgement without activation.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">O'Donnell v Dún Laoghaire [1991]</div>
+        <div class="citation-desc">Writ of mandamus as remedy for failure to exercise statutory duty; applicable to compel reasoned decision-making rather than procedural interment.</div>
+      </div>
+      <div class="citation-item">
+        <div class="citation-ref">Ministers &amp; Secretaries Act 1924</div>
+        <div class="citation-desc">Statutory grounds for mandamus in the context of ministerial governance duty.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- Structure -->
+  <section class="section" id="structure">
+    <div class="section-label">§ Architecture</div>
+    <h2>Directory Structure</h2>
+    <p>The repository is organised <strong>by legal function</strong>, not by authorship or rhetorical theme. Each numbered section reflects a distinct juridical role.</p>
+
+    <div class="tree-box">
+      <pre><span class="tree-dir">Legal-Repository/</span>
+│
+├── README.md
+│
+├── <span class="tree-dir">01_Legal_Petitions/</span>
+│   ├── <span class="tree-file">draft-notice-of-motion.rtf</span>
+│   ├── <span class="tree-file">notice-of-motion-rev2.pdf</span>
+│   ├── <span class="tree-file">mandamus-and-government-accountability.pdf</span>
+│   ├── <span class="tree-file">facilitating-legal-review.pdf</span>
+│   └── <span class="tree-file">addendum3.pdf</span>
+│
+├── <span class="tree-dir">02_Formal_Complaint/</span>
+│   ├── <span class="tree-file">Formal_Complaint_Contents_v2-56.pdf</span>
+│   ├── <span class="tree-file">Formal_Complaint_Breach_of_Ethical_Governance_v2-56.pdf</span>
+│   ├── <span class="tree-file">Formal_Complaint_Executive_Conduct_v1-3c.pdf</span>
+│   ├── <span class="tree-file">Annex_I_Named_Members_Seanad.pdf</span>
+│   ├── <span class="tree-file">Annex_II_Named_Members_Dail.pdf</span>
+│   ├── <span class="tree-file">Annex_III_Legal_Ethical_Triggers.pdf</span>
+│   ├── <span class="tree-file">Annex_IV_Compound_Failure_Modes.pdf</span>
+│   └── <span class="tree-file">Annex_V_Summary_Conspectus_Documents.pdf</span>
+│
+├── <span class="tree-dir">03_Correspondence/</span>
+│   ├── <span class="tree-file">meinhardt-docket-001.pdf</span>
+│   ├── <span class="tree-file">Follow-Up_Acknowledged_Correspondence_Tanaiste.pdf</span>
+│   ├── <span class="tree-file">Formal_Request_Oversight_Review_Cathaoirleach.pdf</span>
+│   ├── <span class="tree-file">harris-martin-chambers.pdf</span>
+│   ├── <span class="tree-file">summary-of-enquiry-with-the-tanaiste-2024.pdf</span>
+│   └── <span class="tree-file">summary-of-enquiry-with-the-tanaiste-2025.pdf</span>
+│
+├── <span class="tree-dir">04_Theoretical_Papers_and_Memoranda/</span>
+│   ├── <span class="tree-file">On_the_Absence_of_an_Operational_Framework.pdf</span>
+│   ├── <span class="tree-file">The_States_Duty_to_Govern_Constitutional_Baseline.pdf</span>
+│   ├── <span class="tree-file">systemic-misgovernance-technical-brief.pdf</span>
+│   ├── <span class="tree-file">Memorandum-E.pdf</span>
+│   ├── <span class="tree-file">Memorandum-D.pdf</span>
+│   └── <span class="tree-file">On_the_Moral_Mandate_of_Institutional_Actors.pdf</span>
+│
+├── <span class="tree-dir">05_Jurisprudential_Briefs/</span>
+│   ├── <span class="tree-file">Memorial_of_Administrative_Default_2025.pdf</span>
+│   ├── <span class="tree-file">Seachanachas_Jurisprudence_of_Avoidance.pdf</span>
+│   └── <span class="tree-file">Ethical_Review_OR_Public_Utility.pdf</span>
+│
+├── <span class="tree-dir">06_Legal_Studies/</span>
+│   ├── <span class="tree-file">governance-as-conflict-eric-alston-2022-mit.pdf</span>
+│   ├── <span class="tree-file">hacking-digital-dissidence.pdf</span>
+│   ├── <span class="tree-file">ssrn-3700087.pdf</span>
+│   └── <span class="tree-file">TractableModReciprocityFairness4-12-05.pdf</span>
+│
+├── <span class="tree-dir">07_Extra-Jurisdictional_Abeyance/</span>
+│   ├── <span class="tree-file">Open-Letter-FRA-Structural-Governance.pdf</span>
+│   ├── <span class="tree-file">Request-Oversight-Engagement-Systemic.pdf</span>
+│   └── <span class="tree-file">Strategic-Executive-Coordination-Cross-Jurisdictional.pdf</span>
+│
+└── <span class="tree-dir">LICENSE/</span>
+    ├── <span class="tree-file">CC0_1_0_Universal</span>
+    └── <span class="tree-file">CC_BY_ND_4_0</span></pre>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- §1 Petitions -->
+  <section class="section" id="petitions">
+    <div class="section-label">§ 1 — Legal Petitions</div>
+    <h2>High Court Filings &amp; Notices of Motion</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">01 · Legal Petitions</div>
+      <h3>Drafts and Perfected Documents for Judicial Review</h3>
+      <p class="section-desc">Instruments seeking Mandamus relief and declarations of constitutional breach before the Irish High Court.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Draft Notice of Motion</span>
+            <span class="doc-desc">Initial motion draft seeking Mandamus to compel government review of O.R. proposals.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1ielE9RO3Qde4OIWFYzkaIMqjd1MBSUBD" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Notice of Motion (Rev. 2)</span>
+            <span class="doc-desc">Revised motion detailing specific reliefs and declarations of breach.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1VpOZMrHRPLj951hZxMUnaJAWyFHS77H" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Mandamus and Government Accountability</span>
+            <span class="doc-desc">Legal argument outlining grounds for Mandamus under the Ministers and Secretaries Act 1924.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1VhiPuG_t89iqTFIBIacxMeO-5uPh_D2s" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Facilitating Legal Review</span>
+            <span class="doc-desc">Argument for judicial intervention in cases of executive negligence regarding national security.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1CtX772NrmmXUTlZLR1edI2uBA3SSWy8E" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Addendum 3</span>
+            <span class="doc-desc">Addendum to 2024 Tánaiste Enquiry. Citations of EU Regulation 428/2009 and ignored legislative mandates.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1V3SmYWbDDOxdbaIw64JhEQUCNIh7pkZK" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- §2 Formal Complaints -->
+  <section class="section" id="complaints">
+    <div class="section-label">§ 2 — Formal Complaint</div>
+    <h2>Oireachtas &amp; Oversight Filings</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">02 · Formal Complaint</div>
+      <h3>Official Filings Alleging Systemic Breach of Ethical Governance Obligations</h3>
+      <p class="section-desc">The master complaint dossier and its annexes, submitted for parliamentary review and oversight proceedings.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Formal Complaint: Contents v2-56</span>
+            <span class="doc-desc">Table of Contents of the master Formal Complaint.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1659ypHAN1M-kFnYrNgrGlPuwjh5a6GC1" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Formal Complaint: Breach of Ethical Governance (v2-56)</span>
+            <span class="doc-desc">The master complaint dossier submitted for parliamentary review.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1hpbq3nOqJ6V2JJbKh6be9Pa8SYQV7Y3D" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Formal Complaint: Executive Conduct &amp; Legislative Oversight (v1-3c)</span>
+            <span class="doc-desc">Rebuttal regarding scope of the complaint and definition of "executive conduct."</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1CyVWKrp-0JWVPegXQfNPJQgeb0qB30kL" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Annex I — Named Members of Seanad Éireann (v1-4)</span>
+            <span class="doc-desc">Senators contacted regarding pandemic preparedness who failed to respond.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/15o3z6exvSj3tLE_NJwH2NHpC-4IT0EzM" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Annex II — Named Members of Dáil Éireann (v1-4)</span>
+            <span class="doc-desc">TDs cited for failure to act on intelligence.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1llrJ2dAr1NPUJA8mkUCP1OFgdzn7SF96" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Annex III — Legal &amp; Ethical Triggers for Denunciation</span>
+            <span class="doc-desc">Reference table mapping specific inactions to breaches of Constitutional and EU law.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1SWuDcLdgxx6Vf8HXCzj9ZkoUTXM51JEK" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Annex IV — Compound Failure Modes &amp; Institutional Double Binds (v1-3)</span>
+            <span class="doc-desc">Structural analysis of the "double binds" trapping Irish governance.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1OS8IJbt2ZPH9KknZk3wHRzw_b6ekgmpQ" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Annex V — Summary of the Conspectus Documents</span>
+            <span class="doc-desc">Conspectus on Operations Research, Ireland (2012 working draft — unpublished).</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1ZvnnIYNdXnCqDFVWx_a0DFRi3a8utxK1" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+
+    <a class="archive-cta" href="https://drive.google.com/drive/u/0/folders/1FMPO1exETcpb4jxX-q5Mh2VIpYwYuATS" target="_blank" rel="noopener">
+      <div class="archive-icon">📂</div>
+      <div class="archive-cta-text">
+        <strong>Formal Complaint Archive — Full Supporting Materials</strong>
+        <span>Access the complete complaint with all annexes and supporting documentation</span>
+      </div>
+      <div class="archive-arrow">→</div>
+    </a>
+  </section>
+
+  <!-- §3 Correspondence -->
+  <section class="section" id="correspondence">
+    <div class="section-label">§ 3 — Correspondence</div>
+    <h2>Procedural History (2008–2025)</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">03 · Correspondence</div>
+      <h3>Evidence of the "Silence Veto" and "Procedural Looping"</h3>
+      <p class="section-desc">Formal correspondence with Dáil, Seanad, and ministerial offices evidencing a pattern of acknowledged but unresolved engagement.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Meinhardt Docket 001</span>
+            <span class="doc-desc">Letter to the Clerk of the Dáil clarifying evidentiary submission.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1KoxPTNU1zNIgwRvoq_M8FUBJ9UvmCVMd" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Follow-Up on Acknowledged Correspondence (Tánaiste)</span>
+            <span class="doc-desc">Log of non-response from the Department of Foreign Affairs.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1oss64WoPeyzoFXw3-AzNCLvH2mAB38G_" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Formal Request for Oversight Review — Cathaoirleach</span>
+            <span class="doc-desc">Request to Senator Mark Daly to initiate an Oversight Review.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1XPcL3h-WaGsBheWvyQ_IEfIB44U7zD8a" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Harris, Martin &amp; Chambers — Correspondence</span>
+            <span class="doc-desc">Correspondence to Taoiseach Harris and Micheál Martin reviewing 19 years of engagement.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1R7c-MnoTHxEqiQgwPiyMtFDS8f8vnH4a" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Summary of Enquiry with the Tánaiste — 2024</span>
+            <span class="doc-desc">Detailed record of the 2024 enquiry cycle regarding national preparedness and strategic intelligence.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1QhF8uKAjalyTayN4mzOyIn0-JXyH5d-M" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Summary of Enquiry with the Tánaiste — 2025</span>
+            <span class="doc-desc">2025 update focusing on narrative unity and the recovery of ethical frameworks.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1QJAOnMKFyHQKkVFM4NegRoSp3XJUC0jo" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- §4 Memoranda -->
+  <section class="section" id="memoranda">
+    <div class="section-label">§ 4 — Memoranda</div>
+    <h2>Theoretical Papers &amp; Core Philosophy</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">04 · Memoranda</div>
+      <h3>O.R. Methodology and the Philosophy of the Meinhardt Initiative</h3>
+      <p class="section-desc">The intellectual and constitutional foundations of the Initiative, spanning operational, fiscal, diplomatic, and jurisprudential dimensions.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Systemic Misgovernance — Technical Brief</span>
+            <span class="doc-desc">Technical briefing classifying O.R. as a "dual-use" science requiring regulation.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1nT_vw4ACxvH5qLLEnn5D2ivDQf_57XF2" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Memorandum E</span>
+            <span class="doc-desc">Constitutional Ethics, Legal Doctrine, and Governance Paralysis: Constitutional Duty in the Face of Systematic Preclusion (per 'Silence Veto').</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Memorandum D</span>
+            <span class="doc-desc">Jurisprudential reflection on Governance Paralysis.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1g7l8gIlpIXDTdXr-gudQyoVuAwFT481Z" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Memoranda A–C: On the Moral Mandate of Institutional Actors</span>
+            <span class="doc-desc">Dualgas Bunreachtúil — Constitutional Duty. Operational, fiscal, and bilateral security dimensions.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1v9J3IPRkw8n_f61VCJmqv0CpdhWUl0JO" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">The State's Duty to Govern — A Constitutional Baseline</span>
+            <span class="doc-desc">Memorandum on the constitutional obligation to utilise available science.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1boWYioN5jQ1fIBEWHL5YH8FMv2lzIMbX" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">On the Absence of an Operational Framework in Government</span>
+            <span class="doc-desc">Treatise on the lack of operational infrastructure in modern Irish governance.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1fDQRdlEaDchwhnxaqsbu5ZkgVuAwFT481Z" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- §5 Briefs -->
+  <section class="section" id="briefs">
+    <div class="section-label">§ 5 — Jurisprudential Briefs</div>
+    <h2>The Architecture of Silence</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">05 · Jurisprudential Briefs</div>
+      <h3>Philosophical &amp; Legal Frameworks in Irish Administrative Law</h3>
+      <p class="section-desc">Analysis of <em>Seachanachas</em> — the institutional art of avoidance — and its constitutional implications.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Memorial of Administrative Default 2025</span>
+            <span class="doc-desc">Formal record of the state's failure to respond to technical warnings, framed as a default in fiduciary care.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn" target="_blank" rel="noopener">Access</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Seachanachas: Jurisprudence of Avoidance</span>
+            <span class="doc-desc">Analysis of how Irish administrative culture utilises avoidance to bypass constitutional scrutiny.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn" target="_blank" rel="noopener">Access</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Ethical Review: O.R. as Public Utility</span>
+            <span class="doc-desc">Review of Operations Research as a necessary public utility — arguing that its exclusion from government is ethically indefensible.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/drive/folders/1DHQhr8yc0ymsnm9nwjGf_vkRDe1JLIAn" target="_blank" rel="noopener">Access</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- §6 Studies -->
+  <section class="section" id="studies">
+    <div class="section-label">§ 6 — Legal Studies</div>
+    <h2>External Research &amp; Academic Foundations</h2>
+
+    <div class="doc-section">
+      <div class="doc-section-num">06 · Legal Studies</div>
+      <h3>Academic Grounding for Claims of Systemic Misgovernance</h3>
+      <p class="section-desc">Independent scholarship on governance conflict, information fiduciary duties, and institutional dissidence.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Governance as Conflict — Alston (MIT, 2022)</span>
+            <span class="doc-desc">Research on how institutional structures generate inherent conflict and paralysis.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1wmDKugdRFgZ3fWN_OqdpxubaQnFx3opO" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Information Fiduciaries — Balkin (SSRN-3700087)</span>
+            <span class="doc-desc">Foundational paper on duties of those who manage critical public information.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/10jJh8NRPsLhnnX5vgxjgyBGQYpyHvBl0" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Hacking: Digital Dissidence</span>
+            <span class="doc-desc">Exploration of modern dissent and the "hacking" of administrative systems to force transparency.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1UJQGzFzaYIZpuv3onUTI63DgjdZicXH7" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- §7 International -->
+  <section class="section" id="international">
+    <div class="section-label">§ 7 — Extra-Jurisdictional Abeyance</div>
+    <h2>International Submissions</h2>
+
+    <p>This section preserves expert risk communications and procedural engagements that remain <strong>unaddressed despite full statutory and constitutional escalation</strong>. Its placement reflects residual, not preliminary, status: what remains unresolved once all lawful avenues have been pursued.</p>
+
+    <div class="doc-section">
+      <div class="doc-section-num">07 · International</div>
+      <h3>Cross-Border Governance Risk — EU &amp; International Bodies</h3>
+      <p class="section-desc">Submissions to the EU Fundamental Rights Agency and related international oversight bodies.</p>
+      <ul class="doc-list">
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Open Letter to FRA: Structural Governance Failure</span>
+            <span class="doc-desc">Petition to the EU Fundamental Rights Agency regarding erosion of the rule of law through executive silence.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1ARY-wIBquSZ64a-R72WKdWAQ6uxodS2B" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Strategic Executive Coordination: Cross-Jurisdictional</span>
+            <span class="doc-desc">Proposal for synchronizing O.R. methodologies across EU member states to prevent localised governance collapses.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1idsMqiMijkazIOoy0Y_HKE09ZwlnR1Mc" target="_blank" rel="noopener">View PDF</a>
+        </li>
+        <li>
+          <div class="doc-title-wrap">
+            <span class="doc-name">Request for Guidance: Petition on Institutional Risk</span>
+            <span class="doc-desc">Formal inquiry into international standards for addressing "unacknowledged" systemic risks within domestic governments.</span>
+          </div>
+          <a class="doc-link" href="https://drive.google.com/file/d/1iuCwfJL9RxHh4VxHh4VpJ5ACiiXCOdPMsIUPT" target="_blank" rel="noopener">View PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<div class="citation-footer">
+  <div class="citation-footer-inner">
+    <div class="footer-col">
+      <div class="footer-col-label">Citation</div>
+      <p><em>The Meinhardt Initiative (2025). Case Files &amp; Governance Review.</em></p>
+      <p>For academic research, legal review, and public oversight. Refer all inquiries to the Master Archive.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-label">Licence</div>
+      <p>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</p>
+      <p>Additional files released under CC0 1.0 Universal and CC BY-ND 4.0 as indicated.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>The Meinhardt Initiative · Legal Repository · Active 2025 · Irish High Court Jurisdiction</p>
+</footer>
+
+<script>
+  // Scroll-reveal
+  const sections = document.querySelectorAll('.section');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  sections.forEach(s => observer.observe(s));
+
+  // Active nav highlight
+  const navLinks = document.querySelectorAll('nav a');
+  const sectionEls = document.querySelectorAll('section[id]');
+
+  const navObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        navLinks.forEach(l => l.style.color = '');
+        const link = document.querySelector(`nav a[href="#${e.target.id}"]`);
+        if (link) link.style.color = 'var(--gold-light)';
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+
+  sectionEls.forEach(s => navObserver.observe(s));
+</script>
+</body>
+</html>
