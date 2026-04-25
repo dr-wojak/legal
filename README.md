@@ -8,7 +8,7 @@
 ---
 
 This repository holds the statutory and jurisprudential record of a governance matter unresolved across nineteen years. The materials are instruments, not arguments — assembled for courts, oversight bodies, and legal scholars who require ordered evidence rather than summary.  
-This readme is duplicated in a browser-ready version here: **[dr-wojak.github.io/legal](https://dr-wojak.github.io/legal)**  
+This README is duplicated in a browser-ready version here: **[dr-wojak.github.io/legal](https://dr-wojak.github.io/legal)**  
 The full evidentiary corpus is navigable at **[dr-crunch.github.io/start-here](https://dr-crunch.github.io/start-here)**  
 The companion redundancy and oversight record is at **[dr-crunch.github.io/redundancy-awareness](https://dr-crunch.github.io/redundancy-awareness/)**  
 For those arriving without background, the project index is at **[dr-crunch.github.io/sitemap](https://dr-drunch.github.io/sitemap)** 
